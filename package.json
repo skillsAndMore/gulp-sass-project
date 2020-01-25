@@ -12,10 +12,11 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
     "gulp-dart-sass": "^0.9.1"
   },
   "browserslist": [
-  	"last 2 version",
-  	"not dead"
+    "last 2 version",
+    "not dead"
   ]
 }
