@@ -1,4 +1,4 @@
-const { dest, src } = require("gulp");
+const { dest, src, watch } = require("gulp");
 const sass = require("gulp-dart-sass");
 const prefix = require("gulp-autoprefixer");
 const csso = require("gulp-csso");
@@ -15,3 +15,6 @@ function scss() {
 }
 
 exports.scss = scss;
+exports.default = function() {
+	watch("scss/**/*.scss", scss);
+};
