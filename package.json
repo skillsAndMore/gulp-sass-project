@@ -13,7 +13,8 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-csso": "^4.0.1",
-    "gulp-dart-sass": "^0.9.1"
+    "gulp-dart-sass": "^0.9.1",
+    "gulp-sourcemaps": "^2.6.5"
   },
   "browserslist": [
     "last 2 version",
